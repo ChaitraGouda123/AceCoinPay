@@ -1,0 +1,84 @@
+.payment-container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left Side */
+  .payment-left {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .payment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  .expiry-group {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+  }
+  
+  .pay-button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  /* Right Side */
+  .payment-right {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .card-preview {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .order-details p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .total-amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
