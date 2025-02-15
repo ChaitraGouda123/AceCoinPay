@@ -50,15 +50,10 @@ const AceCoinPay = () => {
           <p>•••• 3456</p>
           <p>09/22</p>
         </div>
-        <div className="order-details">
-          <p><strong>Company:</strong>Apple</p>
-          <p><strong>Order Number:</strong> 1266201</p>
-          <p><strong>Product:</strong> MacBook Air</p>
-          <p><strong>VAT (20%):</strong> $100.00</p>
+        
           
         </div>
       </div>
-    </div>
   );
 };
 
